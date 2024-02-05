@@ -12,10 +12,52 @@ body {
 
 h1 {
   font-size: 5rem;
+  /* width: 60%; */
 }
+
+
+
+
+
+
+
+
+  .tile-image{
+    height: 12rem;
+    margin: 0 25px 25px 0;
+    float: left;
+  }
+  .card {
+    display: inline-block;
+    width: 40%;
+  }
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+  .creative {
+    color: midnightblue
+  }
+
+@media (max-width: 680px){
+  .card {
+    display: block;
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  .tile-image{
+    display: block;
+    float: none
+  }
+}
+
+
 
 footer {
   text-align: right;
   color: midnightblue;
+  clear: both;
 }
 
